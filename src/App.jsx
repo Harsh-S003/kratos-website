@@ -8,7 +8,7 @@ import Results from "./pages/Results";
 import Support from "./pages/Support";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-
+import OrderForms from "./pages/OrderForms";
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,6 +19,7 @@ const App = () => {
           <Route path="/performance" element={<Performance />} />
           <Route path="/results" element={<Results />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/order-forms" element={<OrderForms />} />
         </Route>
       </Routes>
     </BrowserRouter>
