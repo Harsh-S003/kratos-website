@@ -21,16 +21,17 @@ const Navbar = () => {
     // { name: "Support", path: "/support" },
     // {name: "Order Forms", path: "/order-forms"}
     {name: "Technical Data", path: "/technical-data"},
-    {name: "Marketing", path: "/marketing"}
+    {name: "Marketing", path: "/marketing"},
+    {name: "Non-CF Insole" , path: "/non-cf-insole"},
   ];
 
   return (
     <nav className="w-full fixed top-0 left-0 right-0 z-50 border-b border-gray-100 px-6 py-4 flex items-center justify-between font-sans transition-all duration-300 bg-white/90 backdrop-blur-md">
       {/* Brand Logo */}
       <div className="flex items-center">
-        <span className="text-3xl font-black tracking-tighter text-black uppercase select-none">
-          Kratos
-        </span>
+        <NavLink to="/" className="inline-flex items-center">
+          <img src="/logo.png" alt="Kratos" className="h-8 w-auto" />
+        </NavLink>
       </div>
 
       {/* Navigation Links - Desktop */}

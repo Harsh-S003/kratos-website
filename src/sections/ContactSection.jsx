@@ -36,7 +36,7 @@ const ContactSection = () => {
   return (
     <section className="w-full bg-[#F9FAFB] py-16 px-6 font-sans">
       <Toaster position="top-right" toastOptions={{ duration: 4000 }} />
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         
         {/* ================= LEFT COLUMN: INFO & SUBSCRIBE ================= */}
         <div className="flex flex-col space-y-8">
@@ -80,7 +80,7 @@ const ContactSection = () => {
           </div>
 
           {/* Subscribe Banner Box */}
-          <div className="bg-[#030712] p-8 text-white relative overflow-hidden max-w-lg shadow-md">
+          <div className="bg-[#030712] p-6 sm:p-8 text-white relative overflow-hidden max-w-lg w-full mx-auto lg:mx-0 shadow-md">
             <h3 className="text-2xl font-black tracking-tight uppercase mb-1">
               Subscribe
             </h3>
@@ -88,18 +88,18 @@ const ContactSection = () => {
               Get 10% off your first purchase!
             </p>
             
-            <form onSubmit={handleSubscribeSubmit} className="flex w-full items-center">
+            <form onSubmit={handleSubscribeSubmit} className="flex flex-col sm:flex-row gap-3 w-full">
               <input
                 type="email"
                 placeholder="Email Address"
                 value={subscribeEmail}
                 onChange={(e) => setSubscribeEmail(e.target.value)}
                 required
-                className="bg-[#111827] text-sm text-white placeholder-gray-600 px-4 py-3 flex-grow focus:outline-none border border-transparent focus:border-gray-700 transition-all"
+                className="bg-[#111827] text-sm text-white placeholder-gray-600 px-4 py-3 flex-grow focus:outline-none border border-transparent focus:border-gray-700 transition-all w-full"
               />
               <button
                 type="submit"
-                className="bg-[#FF5500] hover:bg-[#e04a00] text-white text-xs font-black tracking-widest uppercase px-6 py-3.5 transition-colors duration-200 shrink-0"
+                className="bg-[#FF5500] hover:bg-[#e04a00] text-white text-xs font-black tracking-widest uppercase px-6 py-3.5 transition-colors duration-200 shrink-0 w-full sm:w-auto"
               >
                 Sign Up
               </button>
@@ -108,7 +108,7 @@ const ContactSection = () => {
         </div>
 
         {/* ================= RIGHT COLUMN: CONTACT FORM ================= */}
-        <div className="bg-white p-8 sm:p-10 rounded-md shadow-xl shadow-gray-200/50 border border-gray-100 max-w-xl w-full justify-self-center lg:justify-self-end">
+        <div className="bg-white p-6 sm:p-8 rounded-md shadow-xl shadow-gray-200/50 border border-gray-100 max-w-xl w-full justify-self-center lg:justify-self-end">
           <form onSubmit={handleFormSubmit} className="space-y-6">
             
             {/* Name Input */}

@@ -11,6 +11,9 @@ import Navbar from "./components/Navbar";
 import OrderForms from "./pages/OrderForms";
 import TechnicalData from "./pages/TechnicalData";
 import Marketing from "./pages/Marketing";
+import TermandConditions from "./pages/TermandConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import NonCFInsole from "./pages/NonCFInsole";
 const App = () => {
   return (
     <BrowserRouter>
@@ -24,6 +27,9 @@ const App = () => {
           <Route path="/order-forms" element={<OrderForms />} />
           <Route path="/technical-data" element={<TechnicalData />} />
           <Route path="/marketing" element={<Marketing />} />
+          <Route path="/terms-and-conditions" element={<TermandConditions />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/non-cf-insole" element={<NonCFInsole />} />
         </Route>
       </Routes>
     </BrowserRouter>
