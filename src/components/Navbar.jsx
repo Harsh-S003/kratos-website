@@ -23,6 +23,7 @@ const Navbar = () => {
     {name: "Technical Data", path: "/technical-data"},
     {name: "Marketing", path: "/marketing"},
     {name: "Non-CF Insole" , path: "/non-cf-insole"},
+    {name: "Register" , path: "/register"},
   ];
 
   return (
