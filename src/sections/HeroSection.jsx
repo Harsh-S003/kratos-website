@@ -35,13 +35,7 @@ const HeroSection = () => {
               href="#performance"
               className="inline-flex items-center justify-center rounded-none bg-[#FF5500] px-6 py-3.5 text-[11px] font-black uppercase tracking-widest text-white transition hover:bg-[#e04a00]"
             >
-              Shop Performance
-            </a>
-            <a
-              href="#tech"
-              className="inline-flex items-center justify-center rounded-none border border-white/40 bg-transparent px-8 py-3.5 text-[11px] font-black uppercase tracking-widest text-white transition hover:bg-white/10"
-            >
-              Learn Tech
+              Order Forms
             </a>
           </div>
         </div>

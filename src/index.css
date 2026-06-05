@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Prevent horizontal scrolling on small viewports */
+html, body, #root {
+	overflow-x: hidden;
+}

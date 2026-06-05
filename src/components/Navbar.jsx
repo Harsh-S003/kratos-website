@@ -15,15 +15,17 @@ const Navbar = () => {
   
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "Performance", path: "/performance" },
-    { name: "The Tech", path: "/the-tech" },
-    { name: "Results", path: "/results" },
-    { name: "Support", path: "/support" },
-    {name: "Order Forms", path: "/order-forms"}
+    // { name: "Performance", path: "/performance" },
+    // { name: "The Tech", path: "/the-tech" },
+    // { name: "Results", path: "/results" },
+    // { name: "Support", path: "/support" },
+    // {name: "Order Forms", path: "/order-forms"}
+    {name: "Technical Data", path: "/technical-data"},
+    {name: "Marketing", path: "/marketing"}
   ];
 
   return (
-    <nav className="w-full sticky top-0 z-50 border-b border-gray-100 px-6 py-4 flex items-center justify-between font-sans transition-all duration-300 bg-white/90 backdrop-blur-md">
+    <nav className="w-full fixed top-0 left-0 right-0 z-50 border-b border-gray-100 px-6 py-4 flex items-center justify-between font-sans transition-all duration-300 bg-white/90 backdrop-blur-md">
       {/* Brand Logo */}
       <div className="flex items-center">
         <span className="text-3xl font-black tracking-tighter text-black uppercase select-none">
@@ -52,9 +54,12 @@ const Navbar = () => {
 
       {/* Call to Action Button - Desktop */}
       <div className="hidden md:block">
-        <button className="bg-[#FF5500] cursor-pointer text-white text-xs font-bold tracking-widest uppercase px-6 py-3 rounded-md">
-          Shop Now
-        </button>
+        <NavLink
+          to="/order-forms"
+          className="bg-[#FF5500] inline-block cursor-pointer text-white text-xs font-bold tracking-widest uppercase px-6 py-3 rounded-md"
+        >
+          Order Forms
+        </NavLink>
       </div>
 
       {/* Mobile Menu Button */}

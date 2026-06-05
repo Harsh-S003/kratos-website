@@ -29,23 +29,23 @@ const PerformanceIndexSection = () => {
         <div className="lg:col-span-5 flex flex-col space-y-6">
           {/* Top Small Tagline */}
           <span className="text-[10px] font-black uppercase tracking-[0.25em] text-[#FF5500] block">
-            Optimal Performance Index System
+            Independent Testing Confirmed
           </span>
 
           {/* Heading with aggressive condensed line-height */}
           <h2 className="text-3xl sm:text-4xl font-black leading-[0.95] tracking-tighter text-[#0A1128] uppercase">
-            Independent Testing <br /> Confirms Kratos <br /> Superiority
+            Kratos Carbon Fiber <br /> Increases Shoe <br /> Energy by 33%
           </h2>
 
           {/* Body Paragraph */}
           <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-normal">
-            Independent testing by Craig Norton, President of La Foot Plus, evaluated the Kratos Carbon Fiber Insole inside professional footwear. The results were remarkable and measurable, showcasing a groundbreaking advancement in biomechanical efficiency.
+            Independent testing by Craig Norton, President of La Foot Plus, using his Optimal Performance Index System (OPIS), evaluated the Kratos Carbon Fiber Insole inside an ASICS Gel-Resolution X tennis shoe. The shoe was tested both in its original configuration and again with the Kratos Carbon Fiber Insole installed. The results were remarkable and measurable, showing increased midfoot stability by 22%, boosted vertical support by 20%, and enhanced energy transfer by an incredible 33%.
           </p>
 
           {/* Callout Quote Box */}
           <div className="border-l-4 border-[#FF5500] bg-slate-100/80 px-6 py-4 rounded-none mt-2">
             <p className="text-xs sm:text-sm font-semibold italic text-slate-700 tracking-wide">
-              "Stronger Steps. Lighter Feel. Carbon Fiber Inside."
+              "We can energize any shoe by reinforcing the structural platform, delivering greater stability, stronger support, and more efficient energy return with every step."
             </p>
           </div>
         </div>
