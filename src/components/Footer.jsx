@@ -106,7 +106,7 @@ const Footer = () => {
 
       <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
         <p className="text-[10px] font-mono tracking-widest text-gray-600 uppercase">
-          © 2026 Kratos Performance Systems. Engineered for precision.
+          © 2026 Kratos. Engineered for precision.
         </p>
         <div className="flex gap-6">
           {LEGAL_LINKS.map(({ label, href }) => (

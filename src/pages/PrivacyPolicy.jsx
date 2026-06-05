@@ -72,7 +72,7 @@ const PrivacyPolicy = () => {
           <div className="w-12 h-[3px] bg-[#FF5500] mt-4 mb-6" />
           <p className="text-sm text-slate-500">Effective Date: January 1, 2026</p>
           <p className="text-sm text-slate-600 mt-3 leading-relaxed">
-            Kratos Performance Systems ("we," "us," or "our") is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website or purchase our products.
+            Kratos ("we," "us," or "our") is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website or purchase our products.
           </p>
         </div>
 
