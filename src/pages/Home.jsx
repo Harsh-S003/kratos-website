@@ -14,7 +14,7 @@ const Home = () => {
       <VideoShowcaseSection />
       <PhotoSliderSection />
       <PerformanceIndexSection />
-      <ProductfeatureSection />
+      {/* <ProductfeatureSection /> */}
       <Insoles />
       <ContactSection />
       <ClientsLogosBanner />

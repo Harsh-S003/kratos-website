@@ -7,9 +7,9 @@ const NAV_LINKS = [
 ];
 
 const COMPANY_LINKS = [
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
-  { label: "Careers", href: "#careers" },
+  // { label: "About", href: "#about" },
+  // { label: "Contact", href: "#contact" },
+  // { label: "Careers", href: "#careers" },
   { label: "Terms & Conditions", href: "/terms-and-conditions" },
     { label: 'Privacy', href: '/privacy-policy' },
 ];
@@ -38,13 +38,12 @@ const Footer = () => {
     >
       <div className="max-w-7xl mx-auto px-6 pt-16 pb-12 flex flex-col md:flex-row justify-between gap-12">
         {/* Brand */}
-        <div className="flex flex-col gap-1 shrink-0">
-          <span className="text-4xl font-black tracking-tighter text-white uppercase select-none">
-            Kratos
-          </span>
-          <span className="text-xs font-bold tracking-widest text-[#FF5500] uppercase">
-            Performance Systems
-          </span>
+        <div className="flex flex-col gap-3 shrink-0">
+          <img
+            src="/logo.png"
+            alt="Kratos Performance Systems logo"
+            className="h-10 w-auto bg-white p-2 rounded-sm"
+          />
           <p className="text-xs text-gray-500 mt-3 max-w-[200px] leading-relaxed">
             Built for athletes who don't compromise.
           </p>

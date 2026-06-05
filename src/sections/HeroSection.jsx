@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HeroSection = () => {
   return (
     <section
@@ -31,12 +33,12 @@ const HeroSection = () => {
 
           {/* Buttons: Changed completely from rounded-full to sharp layout corners (rounded-none) */}
           <div className="flex flex-row gap-4 pt-2">
-            <a
-              href="#performance"
+            <Link
+              to="/order-forms"
               className="inline-flex items-center justify-center rounded-none bg-[#FF5500] px-6 py-3.5 text-[11px] font-black uppercase tracking-widest text-white transition hover:bg-[#e04a00]"
             >
               Order Forms
-            </a>
+            </Link>
           </div>
         </div>
       </div>
