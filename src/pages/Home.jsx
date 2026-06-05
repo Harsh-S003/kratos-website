@@ -12,12 +12,14 @@ const Home = () => {
     <>
       <HeroSection />
       <PerformanceIndexSection />
-       <PhotoSliderSection />
+      <Insoles />
       <VideoShowcaseSection />
+       <PhotoSliderSection />
+      
      
       
       {/* <ProductfeatureSection /> */}
-      <Insoles />
+      
       <ContactSection />
       <ClientsLogosBanner />
       <SocialSubscribeSection />    
