@@ -11,9 +11,11 @@ const Home = () => {
   return (
     <>
       <HeroSection />
-      <VideoShowcaseSection />
-      <PhotoSliderSection />
       <PerformanceIndexSection />
+       <PhotoSliderSection />
+      <VideoShowcaseSection />
+     
+      
       {/* <ProductfeatureSection /> */}
       <Insoles />
       <ContactSection />
