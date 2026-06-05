@@ -39,11 +39,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 pt-16 pb-12 flex flex-col md:flex-row justify-between gap-12">
         {/* Brand */}
         <div className="flex flex-col gap-3 shrink-0">
-          <img
-            src="/logo.png"
-            alt="Kratos Performance Systems logo"
-            className="h-10 w-auto bg-white p-2 rounded-sm"
-          />
+          <div className="h-10 w-32 overflow-hidden rounded-sm bg-white p-2">
+            <img
+              src="/logo.png"
+              alt="Kratos Performance Systems logo"
+              className="h-full w-full object-contain"
+            />
+          </div>
           <p className="text-xs text-gray-500 mt-3 max-w-[200px] leading-relaxed">
             Built for athletes who don't compromise.
           </p>
