@@ -2,7 +2,8 @@ import React from 'react';
 
 const VideoShowcaseSection = () => {
   return (
-    <section className="w-full bg-[#f8fafc] py-16 font-poppins">
+    // <section className="w-full bg-[#f8fafc] py-16 font-poppins">
+    <section className="w-full bg-[#f8fafc] py-16 pb-0 font-poppins">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

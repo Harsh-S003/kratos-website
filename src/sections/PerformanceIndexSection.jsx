@@ -22,8 +22,10 @@ const PerformanceIndexSection = () => {
   ];
 
   return (
-    <section className="min-h-screen w-full bg-[#F9FAFB] py-20 px-6 sm:px-12 lg:px-16 font-sans">
-      <div className="min-h-screen max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    // <section className="min-h-screen w-full bg-[#F9FAFB] py-20 px-6 sm:px-12 lg:px-16 font-sans">
+    //   <div className="min-h-screen max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    <section className="w-full bg-[#F9FAFB] py-16 px-6 sm:px-12 lg:px-16 font-sans">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
         {/* ================= LEFT COLUMN: COPY & QUOTE ================= */}
         <div className="lg:col-span-5 flex flex-col space-y-6">
